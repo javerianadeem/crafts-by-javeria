@@ -74,4 +74,12 @@ a.readmorebtn {
 
 .pricecard {
     height: 450px;
+    border: 1px dashed !important;
+}
+.card1 {
+    background-image: url("images/bgcard.jpg");
+}
+.cardpara {
+    font-size: 17px;
+    color: rgb(39, 28, 139);
 }
