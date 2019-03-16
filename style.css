@@ -24,9 +24,13 @@ a.readmorebtn {
     height: 80%;
 }
 /* NAVBAR AND CAROUSEL STYLING START */
-.nav-item, .navbar-brand {
+.nav-item {
     padding: 0 15px;
-    font-size: 17px;
+    font-size: 16px;
+}
+.logo {
+    font-size: 20px !important;
+    
 }
 .dropdown:hover>.dropdown-menu {
     display: block;
@@ -64,17 +68,22 @@ a.readmorebtn {
 .caro2arrow-next {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
+
 .caro3-prev {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+    margin-top: 70% !important;
+    ;
 }
 .caro3-next {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+    margin-top: 70% !important;
 }
 /* NAVBAR AND CAROUSEL ENDED */
 
 .pricecard {
     height: 450px;
     border: 1px dashed purple !important;
+   
 }
 .card1 {
     background-image: url("images/bgcard.jpg");
@@ -83,3 +92,7 @@ a.readmorebtn {
     font-size: 17px;
     color: rgb(39, 28, 139);
 }
+.media1, .media2, .media3, .media4 {
+    width: 85%;
+}
+
