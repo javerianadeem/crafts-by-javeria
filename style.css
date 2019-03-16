@@ -74,7 +74,7 @@ a.readmorebtn {
 
 .pricecard {
     height: 450px;
-    border: 1px dashed !important;
+    border: 1px dashed purple !important;
 }
 .card1 {
     background-image: url("images/bgcard.jpg");
