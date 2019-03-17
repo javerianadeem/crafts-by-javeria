@@ -1,4 +1,6 @@
-
+body {
+    overflow-x: hidden;
+}
 .selector-for-some-widget {
     box-sizing: content-box;
   }
@@ -33,8 +35,18 @@ a.readmorebtn {
     font-size: 20px !important;
     
 }
+.navbar-toggle {
+    border: none;
+    outline: 0;
+  }
 .dropdown:hover>.dropdown-menu {
     display: block;
+    transition: all 0.5s;
+}
+.menuicon {
+    border: none !important;
+    outline: none !important;
+    cursor: pointer;
 }
 
 .car-inner img {
